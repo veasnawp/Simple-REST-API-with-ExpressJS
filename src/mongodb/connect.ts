@@ -7,7 +7,7 @@ const connectDB = async () => {
 		if (MONGO_URI) {
 			const conn = await mongoose.connect(MONGO_URI, {
 				autoIndex: true,
-				dbName: "mmotools",
+				dbName: "test",
 			});
 
 			console.log(`MongoDB Connected: ${conn.connection.host}`);
