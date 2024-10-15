@@ -1,0 +1,1 @@
+console.log("Welcome to My Simple Rest API")
